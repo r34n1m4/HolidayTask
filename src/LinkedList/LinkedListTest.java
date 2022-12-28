@@ -1,9 +1,5 @@
 package LinkedList;
-/**
- * @author Crunchify.com
- * version: 1.2
- * last updated: 11/10/2015
- */
+
 public class LinkedListTest {
     public static LinkedList linkedList;
     public static void main(String[] args) {
@@ -15,10 +11,7 @@ public class LinkedListTest {
         linkedList.add("3");
         linkedList.add("4");
         linkedList.add("5");
-        /*
-         * Please note that primitive values can not be added into LinkedList directly. They must be converted to their
-         * corresponding wrapper class.
-         */
+
         System.out.println("Print: linkedList: \t\t" + linkedList);
         System.out.println(".size(): \t\t\t\t" + linkedList.size());
         System.out.println(".get(3): \t\t\t\t" + linkedList.get(3) + " (get element at index:3 - list starts from 0)");
@@ -36,7 +29,7 @@ class LinkedList {
     }
     // appends the specified element to the end of this list.
     public void add(Object data) {
-        // Initialize Node only incase of 1st element
+        // Initialize Node only in case of 1st element
         if (head == null) {
             head = new Node(data);
         }
