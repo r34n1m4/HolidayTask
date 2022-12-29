@@ -1,7 +1,7 @@
 package BubbleSort;
 
 public class BubbleSort {
-    void bubbleSort(int[] array) {
+    public void bubbleSort(int[] array) {
         int n = array.length;
         for (int i = 0; i < n - 1; i++)
             for (int j = 0; j < n - i - 1; j++)
@@ -14,7 +14,7 @@ public class BubbleSort {
     }
 
     //print the array
-    void printArray(int[] array) {
+    public void printArray(int[] array) {
         int n = array.length;
         for (int j : array) System.out.println(j + " ");
         System.out.println();
