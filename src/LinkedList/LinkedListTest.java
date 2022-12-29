@@ -12,12 +12,12 @@ public class LinkedListTest {
         linkedList.add("4");
         linkedList.add("5");
 
-        System.out.println("Print: linkedList: \t\t" + linkedList);
-        System.out.println(".size(): \t\t\t\t" + linkedList.size());
-        System.out.println(".get(3): \t\t\t\t" + linkedList.get(3) + " (get element at index:3 - list starts from 0)");
-        System.out.println(".remove(2): \t\t\t\t" + linkedList.remove(2) + " (element removed)");
-        System.out.println(".get(3): \t\t\t\t" + linkedList.get(3) + " (get element at index:3 - list starts from 0)");
-        System.out.println(".size(): \t\t\t\t" + linkedList.size());
-        System.out.println("Print again: linkedList: \t" + linkedList);
+        System.out.println("Print: linkedList: " + linkedList);
+        System.out.println(".size(): " + linkedList.size());
+        System.out.println(".get(3): " + linkedList.get(3) + " (get element at index:3)");
+        System.out.println(".remove(2): " + linkedList.remove(2) + " (element removed)");
+        System.out.println(".get(3): " + linkedList.get(3) + " (get element at index:3)");
+        System.out.println(".size(): " + linkedList.size());
+        System.out.println("Print again: linkedList: " + linkedList);
     }
 }
