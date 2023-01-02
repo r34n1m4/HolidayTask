@@ -2,7 +2,7 @@
 
 ## Task
 
-### 1) Write Implementation of LinkedList (without using Java LinkedList ready library), it stores int type of data and you have to write 3 methods: add, add at some index, delete at some index, get at some index.
+1) Write Implementation of LinkedList (without using Java LinkedList ready library), it stores int type of data and you have to write 3 methods: add, add at some index, delete at some index, get at some index.
 
 1.1) Think about complexity of of methods for: add, delete, get by index ( O(?) )
 
